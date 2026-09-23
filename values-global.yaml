@@ -1,6 +1,10 @@
 ---
 global:
   pattern: rhoso-gitops
+  secretLoader:
+    disabled: false
+  secretStore:
+    backend: none
   singleArgoCD: true
   secretStore:
     backend: "none"
